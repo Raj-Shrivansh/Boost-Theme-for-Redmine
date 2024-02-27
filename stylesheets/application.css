@@ -1,0 +1,149 @@
+@import url(../../../stylesheets/application.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --main-color:#E9F5F7;
+}
+.controller-timelog{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+}
+.controller-timelog #sidebar{
+    display: none;
+}
+.controller-timelog .query-totals{
+    background-color: var(--main-color);
+    padding: 20px;
+    margin-bottom: 0;
+    border: 1px solid #80808040;
+}
+.controller-timelog table{
+    font-size: 14px;
+}
+.controller-timelog .query-totals .total-for-hours span:first-child{
+    background-color: var(--main-color);
+    color: #5f5959;
+    font-size: 14px;
+    font-weight: 600;
+}
+.controller-timelog .autoscroll{
+    border: 1px solid #80808040;
+    border-bottom: none;
+    padding: 0;
+}
+.controller-timelog .query-totals .total-for-hours .value{
+    background-color: white !important;
+    border: 1px solid #ced3e6;
+    border-radius: 3px !important;
+    padding: 7px 20px 7px 20px !important;
+    font-size: 16px;
+}
+.controller-timelog tr.time-entry td.issue{
+    text-align: left;
+    white-space: normal;
+}
+.controller-timelog .time-entry{
+    color: #5f5959;
+    background-color: var(--main-color);
+}
+.controller-timelog table{
+    border-collapse: collapse;
+  }
+.controller-timelog  tr{
+    border-bottom: 1px solid #80808040;
+  }
+  
+.controller-timelog .time-entry .project{
+    color: #5f5959;
+}
+.controller-timelog .time-entry td{
+    padding: 20px;
+}
+.controller-timelog .time-entry td .issue{
+    color: #5654e4 !important;
+    border: 1px solid #5654e4 !important;
+    border-radius: 3px !important;
+    padding: 4px !important;
+    text-decoration: none;
+    margin-right: 4px;
+    display: inline-block;
+    margin-bottom: 0px !important
+}
+.controller-timelog .time-entry td a.feature{
+    border-color: #6ff542 !important;
+    color:#6ff542 !important;
+    font-weight: 400;
+}
+.controller-timelog .time-entry td a.support{
+    border-color: orangered !important;
+    color: orangered !important;
+}
+.controller-timelog thead tr th{
+    background-color: white;
+}
+.controller-timelog thead{
+    height: 50px;
+}
+.controller-timelog thead tr th a{
+    color: #5f5959;
+}
+.controller-timelog th.checkbox{
+    width: 36px;
+}
+.controller-timelog th.project{
+    width: 279px;
+    border-right: 2px solid #29435c33;
+}
+.controller-timelog td.user a{
+    text-decoration: none;
+}
+.controller-timelog td.project a{
+    color: #5f5959;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.controller-timelog th.spent_on{
+    width: 63px;
+    border-right: 2px solid #29435c33;
+}
+
+.controller-timelog th.user{
+    width: 122px;
+    border-right: 2px solid #29435c33;
+}
+.controller-timelog th.activity{
+    width: 55px;
+    border-right: 2px solid #29435c33;
+
+}
+.controller-timelog th.issue{
+    width: 425px;
+    min-width: 200px;
+    border-right: 2px solid #29435c33;
+
+}
+.controller-timelog th.comments{
+    width: 157px;
+    color: #5f5959;
+    border-right: 2px solid #29435c33;
+
+}
+.controller-timelog th.hours{
+    width: 39px;
+    border-right: 1px solid #29435c33;
+    text-align: center;
+
+}
+.controller-timelog th:last-child{
+    width: 68px;
+}
+#toggle{
+    background-image: url(../images/bars-staggered-solid.svg);
+    width: 20px;
+    height: 20px;
+    margin-top: 90px;
+    background-repeat: no-repeat;
+    position: fixed;
+    font-weight: bolder;
+}
